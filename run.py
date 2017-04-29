@@ -27,7 +27,7 @@ def whereto():
 
 @app.route("/accepted")
 def accepted():
-	return render_template('hello.jade')
+	return render_template('accepted.jade')
 
 @app.route("/deliverto")
 def deliverto():
