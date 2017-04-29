@@ -180,6 +180,11 @@ video#bgvid {
         url('../images/parma.jpg') bottom center / cover;
 }
 
+.demo-card-square > .azuri {
+    background:
+        url('../images/azuri.jpg') top / cover;
+}
+
 .demo-card-wide.mdl-card {
     width: 512px;
 }
