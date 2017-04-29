@@ -1,15 +1,13 @@
 body{
 text-align: center;
-background-color: black;
+background-color: white;
 color: white;
 font-family: Roboto, verdana;
-<<<<<<< HEAD
-margin: 0 auto;
 }
 
 
 #DeliverTable{
-    background-color:grey;
+    background-color:3a3a3a;
     margin: 0 auto;
     min-width: 400px;
     width: 80%;
@@ -24,7 +22,7 @@ nav{
 	width: 100%;
 	cursor: pointer;
 	background-color: #F5F5F5;
-	color: black;
+	color: 3a3a3a;
 }
 
 .menu-item:hover {
@@ -39,15 +37,15 @@ nav{
 .menu-item-data {
 	text-align: left!important;
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: 3a3a3a;
     font-family: Roboto, verdana;
 }
 
 
-#Order{color: white; font-size: 120%; height: 10%; min-height: 100px; width: 30%; min-width: 120px;}
-#PickUp {color: white; font-size: 120%; height: 10%; min-height: 100px; width: 30%; min-width: 120px;}
-#Middle {margin: 0;}
+#Order{color: white; font-size: 200%; height: 10%; min-height: 100px; width: 30%; min-width: 120px;}
+#PickUp {color: white; font-size: 200%; height: 10%; min-height: 100px; width: 30%; min-width: 120px;}
+#Middle {margin: 0; margin-top: 20%;}
 
 .demo-card-square.mdl-card {
     width: 320px;
@@ -79,6 +77,8 @@ video#bgvid {
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
     background: url(polina.jpg) no-repeat;
+    background-color: black;
+    opacity: 0.7;
     background-size: cover;
 }
 
