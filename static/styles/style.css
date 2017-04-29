@@ -1,7 +1,7 @@
 body{
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: #3A3A3A;
     font-family: Roboto, verdana;
 }
 
@@ -10,12 +10,12 @@ body{
     color: black;
 }
 
-#accent-grey {
+#accent-grey-text {
     color: #3a3a3a;
 }
 
-#accent-red {
-    background: #9a0606;
+#accent-grey-background {
+    background: grey;
 }
 
 #DeliverTable{
@@ -143,17 +143,6 @@ nav{
 #PickUp {color: white; font-size: 120%; height: 10%; min-height: 100px; width: 30%; min-width: 120px;}
 #Middle {margin: 0;}
 
-.demo-card-square.mdl-card {
-    width: 320px;
-    height: 320px;
-}
-
-.demo-card-square > .mdl-card__title {
-    color: #fff;
-    background:
-        url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
-}
-
 .cafe-card {
     margin: 0 auto;
 }
@@ -192,8 +181,32 @@ video#bgvid {
 
 .demo-card-square > .mdl-card__title {
     color: #fff;
+    background: black;
+}
+
+.demo-card-square > .broadway {
     background:
-        url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
+        url('../images/broadway.jpg') bottom left / cover;
+}
+
+.demo-card-square > .tastebaguette {
+    background:
+        url('../images/tastebaguette.jpg') center / cover;
+}
+
+.demo-card-square > .carslawkitchen {
+    background:
+        url('../images/carslawkitchen.jpg') bottom / cover;
+}
+
+.demo-card-square > .parma {
+    background:
+        url('../images/parma.jpg') bottom center / cover;
+}
+
+.demo-card-square > .azuri {
+    background:
+        url('../images/azuri.jpg') bottom / cover;
 }
 
 .demo-card-wide.mdl-card {
@@ -212,4 +225,19 @@ video#bgvid {
 
 .cafe-card {
     margin: 0 auto!important;
+}
+
+.content1e {
+    display: none;
+}
+
+#DeliverTable tr:hover {
+    background-color: #f0e2e6!important;
+
+}
+.expanded {
+    display: table-row!important;
+}
+.dropd{
+    background-color: rgb(220, 197, 197);
 }
