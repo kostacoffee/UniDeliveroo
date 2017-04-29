@@ -11,15 +11,15 @@ def hello():
 
 @app.route("/cafes")
 def cafes():
-	return render_template('hello.jade')
+	return render_template('cafes.jade')
 
-@app.route("/order-pickup/{cafeid}")
-def orderpickup():
-	return render_template('hello.jade')
+@app.route("/order-pickup/<int:cafeid>")
+def orderpickup(cafeid):
+	return render_template('options.jade')
 
-@app.route("/menu/{cafeid}")
+@app.route("/menu/<int:cafeid>")
 def menu(cafeid):
-	return render_template('hello.jade')
+	return render_template('menu.jade')
 
 @app.route("/whereto")
 def whereto():
@@ -33,9 +33,9 @@ def accepted():
 def deliverto():
 	return render_template('hello.jade')
 
-@app.route("/orderlist/{cafeid}")
+@app.route("/orderlist/<int:cafeid>")
 def orderlist(cafeid):
-	return render_template('hello.jade')
+	return render_template('orders.jade')
 
 @app.route("/summary")
 def summary():
