@@ -5,22 +5,23 @@ html
     link(rel="stylesheet", href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css")
     script(defer,src="https://code.getmdl.io/1.3.0/material.min.js")
     link(rel="stylesheet", type="text/css", href="/static/styles/style.css")
-    //link(href="https://fonts.googleapis.com/css?family=Dr+Sugiyama", rel="stylesheet")
-    //link(href="https://fonts.googleapis.com/css?family=La+Belle+Aurore", rel="stylesheet")
 
   body
 
     nav
-      img(onclick="location.href = 'http://localhost:5000/';",src="/static/images/logo.png")
+      img(src="/static/images/logo.png")
+
+    br
+    br
+    br
 
     video#bgvid(playsinline, autoplay, muted, loop, poster="")
       source(src="/static/videos/vid.mov", type="video/mov")
       source(src="/static/videos/vid.mp4", type="video/mp4")
-    p
-    br
+
     div#Middle
       // Order button
-      button#Order.mdl-button.mdl-js-button(onclick="location.href = 'http://localhost:5000/menu';") Order
+      button#Order.mdl-button.mdl-js-button Order
 
       p
       p
@@ -29,4 +30,4 @@ html
       p
 
       // Pick up Button
-      button#PickUp.mdl-button.mdl-js-button(onclick="location.href = 'http://localhost:5000/deliverto';") Pick Up
+      button#PickUp.mdl-button.mdl-js-button Pick Up
