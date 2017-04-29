@@ -172,7 +172,7 @@ video#bgvid {
 
 .demo-card-square > .carslawkitchen {
     background:
-        url('../images/carslawkitchen.jpg') center / cover;
+        url('../images/carslawkitchen.jpg') bottom / cover;
 }
 
 .demo-card-square > .parma {
@@ -182,7 +182,7 @@ video#bgvid {
 
 .demo-card-square > .azuri {
     background:
-        url('../images/azuri.jpg') top / cover;
+        url('../images/azuri.jpg') bottom / cover;
 }
 
 .demo-card-wide.mdl-card {
