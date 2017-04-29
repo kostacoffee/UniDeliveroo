@@ -1,0 +1,29 @@
+
+body{
+text-align: center;
+background-color: black;
+color: white;
+font-family: Roboto, verdana;
+margin: 0 auto;
+}
+
+
+#DeliverTable{
+    background-color:grey;
+    margin: 0 auto;
+    min-width: 400px;
+    width: 80%;
+}
+nav{
+    min-height: 100px;
+    height: 15%;
+    margin: 0 auto;
+}
+
+.content1e{
+    display: none;
+}
+
+.expanded{
+    display: block;
+}
