@@ -23,7 +23,7 @@ def menu(cafeid):
 
 @app.route("/whereto")
 def whereto():
-	return render_template('hello.jade')
+	return render_template('whereto.jade')
 
 @app.route("/accepted")
 def accepted():
