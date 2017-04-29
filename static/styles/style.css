@@ -1,7 +1,6 @@
 
 body{
     text-align: center;
-    margin: 25%;
     background-color: black;
     color: white;
     font-family: Roboto, verdana;
@@ -10,7 +9,7 @@ body{
 
 #Order{color: white; font-size: 120%; height: 10%; min-height: 100px; width: 30%; min-width: 120px;}
 #PickUp {color: white; font-size: 120%; height: 10%; min-height: 100px; width: 30%; min-width: 120px;}
-#Middle {margin: 25%;}
+#Middle {margin: 25% auto;}
 
 .demo-card-square.mdl-card {
     width: 320px;
