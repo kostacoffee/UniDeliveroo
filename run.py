@@ -11,7 +11,7 @@ def hello():
 
 @app.route("/cafes")
 def cafes():
-	return render_template('hello.jade')
+	return render_template('cafes.jade')
 
 @app.route("/order-pickup/<int:cafeid>")
 def orderpickup():
@@ -35,7 +35,7 @@ def deliverto():
 
 @app.route("/orderlist/<int:cafeid>")
 def orderlist(cafeid):
-	return render_template('hello.jade')
+	return render_template('orders.jade')
 
 @app.route("/summary")
 def summary():
