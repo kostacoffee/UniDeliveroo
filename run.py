@@ -1,7 +1,7 @@
 #! /usr/bin/env python3
 from flask import Flask, render_template
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='/static')
 app.jinja_env.add_extension('pyjade.ext.jinja.PyJadeExtension')
 app.debug = True
 
@@ -23,11 +23,11 @@ def menu(cafeid):
 
 @app.route("/whereto")
 def whereto():
-	return render_template('hello.jade')
+	return render_template('whereto.jade')
 
 @app.route("/accepted")
 def accepted():
-	return render_template('hello.jade')
+	return render_template('accepted.jade')
 
 @app.route("/deliverto")
 def deliverto():
