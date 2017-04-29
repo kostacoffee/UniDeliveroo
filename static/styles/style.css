@@ -97,6 +97,24 @@ nav{
 
 /* END MENU */
 
+
+/* WHERE TO */
+
+.submit-row {
+	background-color: #9E9E9E;
+}
+
+.submit-row:hover {
+	background-color: #9E9E9E;
+}
+
+.submit-btn {
+	width: 100%;
+	color: white;
+}
+
+/* END WHERE TO */
+
 #Order{color: white; font-size: 120%; height: 10%; min-height: 100px; width: 30%; min-width: 120px;}
 #PickUp {color: white; font-size: 120%; height: 10%; min-height: 100px; width: 30%; min-width: 120px;}
 #Middle {margin: 0;}
