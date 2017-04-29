@@ -37,5 +37,9 @@ def summary():
 def profile():
 	return render_template('profile.jade')
 
+@app.route("/thankyou")
+def thankyou():
+	return render_template('thankyou.jade')
+	
 if __name__ == '__main__':
 	app.run()
