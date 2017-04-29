@@ -19,7 +19,7 @@ body{
 }
 
 #DeliverTable{
-    background-color:grey;
+    background-color: #c8c8c8;
     margin: 0 auto;
     min-width: 400px;
     width: 80%;
@@ -201,14 +201,27 @@ video#bgvid {
 .content1e {
     display: none;
 }
+.content3e {
+    display: none;
+}
+.content6e {
+    display: none;
+}
 
 #DeliverTable tr:hover {
-    background-color: #f0e2e6!important;
+    background-color: #b87183!important;
 
 }
 .expanded {
     display: table-row!important;
 }
 .dropd{
-    background-color: rgb(220, 197, 197);
+    background-color: #E1E1E1;
+}
+
+.deliver-head {
+    text-align: center!important;
+}
+.mid{
+    width: 100%;
 }
