@@ -33,5 +33,9 @@ def deliverto():
 def summary():
 	return render_template('summary.jade')
 
+@app.route("/profile")
+def profile():
+	return render_template('profile.jade')
+
 if __name__ == '__main__':
 	app.run()
