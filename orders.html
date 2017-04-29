@@ -1,43 +1,27 @@
-<html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="styles/style.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
-        <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    </head>
+html
+    head
+        link(rel="stylesheet", type="text/css", href="styles/style.css")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/icon?, family=Material+Icons")
+        link(rel="stylesheet", href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css")
+        script(defer, src="https://code.getmdl.io/1.3.0/material.min.js")
+
     
-    <body>
-        <section>
+    body
+        section
+            h1 Orders
 
-            <h1>Orders</h1>
-            
-<!--How to center table?-->
-
-            <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
-                <thead>
-                    <tr>
-                        <th class="mdl-data-table__cell--non-numeric">Student</th>
-                        <th>Items</th>
-                        <th>Total</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="mdl-data-table__cell--non-numeric">Kosta</td>
-                        <td></td>
-                        <td>$2.90</td>
-                    </tr>
-                </tbody>
-            </table>
-
-
-        </section>
-
-        <section>
-            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+            table(class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp")
+                thead
+                    tr
+                        th(class="mdl-data-table__cell--non-numeric") Student
+                        th items
+                        th Total
+                tbody
+                    tr
+                        td(class="mdl-data-table__cell--non-numeric") Placeholder
+                        th
+                        th
+        
+            section
+            button(class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored")
                 Collect
-            </button>
-        </section>
-
-    </body>
-</html>
