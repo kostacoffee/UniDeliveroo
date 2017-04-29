@@ -113,7 +113,31 @@ nav{
 	color: white;
 }
 
+
 /* END WHERE TO */
+
+/* ACCEPTED */
+
+.run-cover {
+	background: url('/static/images/run.gif') center center fixed;
+	background-size: cover;
+}
+
+.center-btn-outer {
+	margin: auto;
+}
+
+.center-btn-container {
+	margin: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	height: 50%;
+}
+
+/* END ACCEPTED */
 
 #Order{color: white; font-size: 120%; height: 10%; min-height: 100px; width: 30%; min-width: 120px;}
 #PickUp {color: white; font-size: 120%; height: 10%; min-height: 100px; width: 30%; min-width: 120px;}
