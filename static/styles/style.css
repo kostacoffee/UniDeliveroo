@@ -1,28 +1,41 @@
 body{
-text-align: center;
-background-color: black;
-color: white;
-font-family: Roboto, verdana;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: Roboto, verdana;
+}
+
+#ProfileCard{
+    margin: 0 auto;
+    color: black;
+}
+
+#accent-grey {
+    color: #3a3a3a;
+}
+
+#accent-red {
+    background: #9a0606;
 }
 
 .menu-item {
-	width: 100%;
-	cursor: pointer;
-	background-color: #F5F5F5;
-	color: black;
+    width: 100%;
+    cursor: pointer;
+    background-color: #F5F5F5;
+    color: black;
 }
 
 .menu-item:hover {
-	background-color: #BDBDBD!important;
+    background-color: #BDBDBD!important;
 }
 
 .menu-item-select {
-	margin: 0 0;
-	width: 100%;
+    margin: 0 0;
+    width: 100%;
 }
 
 .menu-item-data {
-	text-align: left!important;
+    text-align: left!important;
     text-align: center;
     background-color: black;
     color: white;
@@ -69,7 +82,7 @@ video#bgvid {
 
 @media screen and (max-device-width: 800px) {
     html {
-         background: url(polina.jpg) #000 no-repeat center center fixed;
+        background: url(polina.jpg) #000 no-repeat center center fixed;
     }
     #bgvid {
         display: none;
@@ -87,8 +100,21 @@ video#bgvid {
         url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
 }
 
+.demo-card-wide.mdl-card {
+    width: 512px;
+}
+
+.demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: url('../assets/demos/welcome_card.jpg') center / cover;
+}
+
+.demo-card-wide > .mdl-card__menu {
+    color: #fff;
+}
+
 .cafe-card {
     margin: 0 auto!important;
 }
-
 
