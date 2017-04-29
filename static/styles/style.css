@@ -10,12 +10,12 @@ body{
     color: black;
 }
 
-#accent-grey {
+#accent-grey-text {
     color: #3a3a3a;
 }
 
-#accent-red {
-    background: #9a0606;
+#accent-grey-background {
+    background: grey;
 }
 
 #DeliverTable{
