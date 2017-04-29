@@ -6,19 +6,15 @@ app.jinja_env.add_extension('pyjade.ext.jinja.PyJadeExtension')
 app.debug = True
 
 @app.route("/")
-def hello():
-	return render_template('hello.jade')
-
-@app.route("/cafes")
 def cafes():
 	return render_template('cafes.jade')
 
-@app.route("/order-pickup/<int:cafeid>")
-def orderpickup(cafeid):
+@app.route("/order-pickup")
+def orderpickup():
 	return render_template('options.jade')
 
-@app.route("/menu/<int:cafeid>")
-def menu(cafeid):
+@app.route("/menu")
+def menu():
 	return render_template('menu.jade')
 
 @app.route("/whereto")
@@ -32,10 +28,6 @@ def accepted():
 @app.route("/deliverto")
 def deliverto():
 	return render_template('deliverto.jade')
-
-@app.route("/orderlist/<int:cafeid>")
-def orderlist(cafeid):
-	return render_template('orders.jade')
 
 @app.route("/summary")
 def summary():
