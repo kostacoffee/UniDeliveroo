@@ -32,7 +32,7 @@ font-family: Roboto, verdana;
 
 #Order{color: white; font-size: 120%; height: 10%; min-height: 100px; width: 30%; min-width: 120px;}
 #PickUp {color: white; font-size: 120%; height: 10%; min-height: 100px; width: 30%; min-width: 120px;}
-#Middle {margin: 25% auto;}
+#Middle {margin: 0;}
 
 .demo-card-square.mdl-card {
     width: 320px;
@@ -90,5 +90,3 @@ video#bgvid {
 .cafe-card {
     margin: 0 auto!important;
 }
-
-
