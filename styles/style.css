@@ -1,14 +1,32 @@
 
 body{
-text-align: center;
-background-color: black;
-color: white;
-font-family: Roboto, verdana;
+    text-align: center;
+    margin: 25%;
+    background-color: black;
+    color: white;
+    font-family: Roboto, verdana;
 }
+
 
 #Order{color: white; font-size: 120%; height: 10%; min-height: 100px; width: 30%; min-width: 120px;}
 #PickUp {color: white; font-size: 120%; height: 10%; min-height: 100px; width: 30%; min-width: 120px;}
 #Middle {margin: 25%;}
+
+.demo-card-square.mdl-card {
+    width: 320px;
+    height: 320px;
+}
+
+.demo-card-square > .mdl-card__title {
+    color: #fff;
+    background:
+        url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
+}
+
+.cafe-card {
+    margin: 0 auto;
+}
+
 
 video#bgvid {
     position: fixed;
