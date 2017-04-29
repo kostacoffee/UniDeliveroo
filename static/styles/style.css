@@ -1,7 +1,22 @@
-body {
-	text-align: center; background-color: black;
+body{
+	text-align: center;
+	background-color: black;
 	color: white;
 	font-family: Roboto, verdana;
+	margin: 0 auto;
+}
+
+#DeliverTable{
+    background-color:grey;
+    margin: 0 auto;
+    min-width: 400px;
+    width: 80%;
+}
+
+nav{
+    min-height: 100px;
+    height: 15%;
+    margin: 0 auto;
 }
 
 /* MENU */
@@ -69,7 +84,7 @@ body {
 
 #Order{color: white; font-size: 120%; height: 10%; min-height: 100px; width: 30%; min-width: 120px;}
 #PickUp {color: white; font-size: 120%; height: 10%; min-height: 100px; width: 30%; min-width: 120px;}
-#Middle {margin: 25% auto;}
+#Middle {margin: 0;}
 
 .demo-card-square.mdl-card {
     width: 320px;
@@ -127,5 +142,3 @@ video#bgvid {
 .cafe-card {
     margin: 0 auto!important;
 }
-
-
