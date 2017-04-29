@@ -14,8 +14,8 @@ def cafes():
 	return render_template('cafes.jade')
 
 @app.route("/order-pickup/<int:cafeid>")
-def orderpickup():
-	return render_template('hello.jade')
+def orderpickup(cafeid):
+	return render_template('options.jade')
 
 @app.route("/menu/<int:cafeid>")
 def menu(cafeid):
