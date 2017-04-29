@@ -9,7 +9,13 @@ html
 		nav
 			img(onclick="location.href = 'www.yoursite.com';",src="/static/images/logo.png")
 			h1 Where to?
-		table#DeliverTable.mdl-data-table.mdl-js-data-table.mdl-data-table--selectable.mdl-shadow--2dp
+		p
+		br
+		table#DeliverTable.mdl-data-table.mdl-js-data-table.mdl-shadow--2dp
+			thead
+				tr
+					th.deliver-head(colspan=2) Select Location
+
 			tbody
 				tr
 					td.mdl-data-table__cell--non-numeric School of IT
@@ -45,4 +51,3 @@ html
 					td.submit-row(colspan=2): button.mdl-button.mdl-js-button.mdl-js-ripple-effect.submit-btn(onclick="location.href = 'http://localhost:5000/accepted';") PAY
 
 		
-
