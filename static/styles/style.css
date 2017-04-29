@@ -101,17 +101,6 @@ nav{
 #PickUp {color: white; font-size: 120%; height: 10%; min-height: 100px; width: 30%; min-width: 120px;}
 #Middle {margin: 0;}
 
-.demo-card-square.mdl-card {
-    width: 320px;
-    height: 320px;
-}
-
-.demo-card-square > .mdl-card__title {
-    color: #fff;
-    background:
-        url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
-}
-
 .cafe-card {
     margin: 0 auto;
 }
@@ -150,8 +139,27 @@ video#bgvid {
 
 .demo-card-square > .mdl-card__title {
     color: #fff;
+    background: black;
+}
+
+.demo-card-square > .broadway {
     background:
-        url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
+        url('../images/broadway.jpg') bottom left / cover;
+}
+
+.demo-card-square > .tastebaguette {
+    background:
+        url('../images/tastebaguette.jpg') center / cover;
+}
+
+.demo-card-square > .carslawkitchen {
+    background:
+        url('../images/carslawkitchen.jpg') center / cover;
+}
+
+.demo-card-square > .parma {
+    background:
+        url('../images/parma.jpg') bottom center / cover;
 }
 
 .demo-card-wide.mdl-card {
