@@ -18,15 +18,29 @@ body{
     background: #9a0606;
 }
 
+#DeliverTable{
+    background-color:grey;
+    margin: 0 auto;
+    min-width: 400px;
+    width: 80%;
+}
+
+nav{
+    min-height: 100px;
+    height: 15%;
+    margin: 0 auto;
+}
+
+/* MENU */
+
 .menu-item {
-    width: 100%;
-    cursor: pointer;
-    background-color: #F5F5F5;
-    color: black;
+	width: 100%;
+	cursor: pointer;
+	background-color: #F5F5F5;
 }
 
 .menu-item:hover {
-    background-color: #BDBDBD!important;
+	background-color: #E0E0E0!important;
 }
 
 .menu-item-select {
@@ -42,10 +56,50 @@ body{
     font-family: Roboto, verdana;
 }
 
+.menu-item-title {
+	font-size: 1.2em;
+    color: #616161;
+	margin: 0;
+}
+
+.menu-item-description {
+	font-size: 1em;
+    color: #757575;
+	margin: 0;
+}
+
+.menu-item-price {
+	font-size: 0.8em;
+    color: #757575;
+	margin: 0;
+}
+
+.menu-title {
+	background-color: #FAFAFA;
+	width: 100%;
+	column-span: all;
+}
+
+.menu-title-text {
+	text-align: center!important;
+	font-weight: bold!important;
+	font-size: 1.5em!important;
+}
+
+.menu-title > th:first-child {
+	display: none;
+}
+
+.menu-item-content > td:first-child {
+	text-align: left;
+	width: 1% /* forces nice spacing */
+}
+
+/* END MENU */
 
 #Order{color: white; font-size: 120%; height: 10%; min-height: 100px; width: 30%; min-width: 120px;}
 #PickUp {color: white; font-size: 120%; height: 10%; min-height: 100px; width: 30%; min-width: 120px;}
-#Middle {margin: 25% auto;}
+#Middle {margin: 0;}
 
 .demo-card-square.mdl-card {
     width: 320px;
@@ -117,4 +171,3 @@ video#bgvid {
 .cafe-card {
     margin: 0 auto!important;
 }
-
