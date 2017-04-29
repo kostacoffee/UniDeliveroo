@@ -6,6 +6,10 @@ body{
     font-family: Roboto, verdana;
 }
 
+#constrain {
+    padding: 20px;
+}
+
 #ProfileCard{
     margin: 0 auto;
     color: black;
@@ -133,15 +137,33 @@ nav{
 	margin: auto;
 }
 
-.center-btn-container {
-	margin: auto;
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	top: 0;
-	height: 50%;
+ .center-btn-container {
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    height: 50%;
 }
+
+.light-btn {
+   background-color: rgba(255,255,255,0.5);
+}
+
+.text-container {
+   background-color: rgba(255,255,255,0.5);
+   color: white;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   top: 0;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-left: 50px;
+   padding-right: 50px;
+
+ }
+
 
 /* END ACCEPTED */
 
