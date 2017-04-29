@@ -31,7 +31,7 @@ def accepted():
 
 @app.route("/deliverto")
 def deliverto():
-	return render_template('hello.jade')
+	return render_template('deliverto.jade')
 
 @app.route("/orderlist/<int:cafeid>")
 def orderlist(cafeid):
