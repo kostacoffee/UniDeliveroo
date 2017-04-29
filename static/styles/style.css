@@ -24,4 +24,55 @@ font-family: Roboto, verdana;
 
 .menu-item-data {
 	text-align: left!important;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: Roboto, verdana;
+}
+
+
+#Order{color: white; font-size: 120%; height: 10%; min-height: 100px; width: 30%; min-width: 120px;}
+#PickUp {color: white; font-size: 120%; height: 10%; min-height: 100px; width: 30%; min-width: 120px;}
+#Middle {margin: 25% auto;}
+
+.demo-card-square.mdl-card {
+    width: 320px;
+    height: 320px;
+}
+
+.demo-card-square > .mdl-card__title {
+    color: #fff;
+    background:
+        url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
+}
+
+.cafe-card {
+    margin: 0 auto;
+}
+
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-device-width: 800px) {
+    html {
+         background: url(polina.jpg) #000 no-repeat center center fixed;
+    }
+    #bgvid {
+        display: none;
+    }
 }
