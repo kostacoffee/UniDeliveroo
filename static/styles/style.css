@@ -3,7 +3,6 @@ text-align: center;
 background-color: black;
 color: white;
 font-family: Roboto, verdana;
-<<<<<<< HEAD
 margin: 0 auto;
 }
 
@@ -28,7 +27,7 @@ nav{
 }
 
 .menu-item:hover {
-	background-color: #BDBDBD!important;
+	background-color: #BDBDBDz;
 }
 
 .menu-item-select {
@@ -104,4 +103,19 @@ video#bgvid {
 
 .cafe-card {
     margin: 0 auto!important;
+}
+
+.content1e {
+    display: none;
+}
+
+#DeliverTable tr:hover {
+    background-color: #f0e2e6!important;
+
+}
+.expanded {
+    display: table-row!important;
+}
+.dropd{
+    background-color: rgb(220, 197, 197);
 }
