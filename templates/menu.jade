@@ -1,0 +1,49 @@
+doctype 5
+html
+	head
+		title hello world
+		link(rel="stylesheet", href="https://fonts.googleapis.com/icon?family=Material+Icons")
+		link(rel="stylesheet", href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css")
+		script(defer, src="https://code.getmdl.io/1.3.0/material.min.js")
+	body
+		section.mdl-layout.mdl-js-layout
+			header.mdl-layout__header
+				div.mdl-layout__header-row
+					span.mdl-layout-title Menu
+			section.mdl-layout__content
+				h3 Food
+				ul.mdl-list
+					li.mdl-list__item
+						span.mdl-list__item-primary-content
+							label.mdl-checkbox.mdl-js-checkbox.mdl-js-ripple-effect(for="list-checkbox-1")
+								label Burger
+								input#list-checkbox-1.mdl-checkbox__input(type="checkbox")
+					li.mdl-list__item
+						span.mdl-list__item-primary-content
+							label.mdl-checkbox.mdl-js-checkbox.mdl-js-ripple-effect(for="list-checkbox-2")
+								label Noodles
+								input#list-checkbox-2.mdl-checkbox__input(type="checkbox")
+					li.mdl-list__item
+						span.mdl-list__item-primary-content
+							label.mdl-checkbox.mdl-js-checkbox.mdl-js-ripple-effect(for="list-checkbox-3")
+								label Soup
+								input#list-checkbox-3.mdl-checkbox__input(type="checkbox")
+			section.mdl-layout__content
+				h3 Drink
+				ul.mdl-list
+					li.mdl-list__item
+						span.mdl-list__item-primary-content
+							label.mdl-checkbox.mdl-js-checkbox.mdl-js-ripple-effect(for="list-checkbox-4")
+								label Tea
+								input#list-checkbox-4.mdl-checkbox__input(type="checkbox")
+					li.mdl-list__item
+						span.mdl-list__item-primary-content
+							label.mdl-checkbox.mdl-js-checkbox.mdl-js-ripple-effect(for="list-checkbox-5")
+								label Coffee
+								input#list-checkbox-5.mdl-checkbox__input(type="checkbox")
+					li.mdl-list__item
+						span.mdl-list__item-primary-content
+							label.mdl-checkbox.mdl-js-checkbox.mdl-js-ripple-effect(for="list-checkbox-6")
+								label Milkshake
+								input#list-checkbox-6.mdl-checkbox__input(type="checkbox")
+
