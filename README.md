@@ -4,9 +4,11 @@
 
 What if you could make some extra cash or get a discount on your meal just by walking to your next class? What if you could get food delivered right to your hand. Introducing, Foodie. 
 
-Foodie allows students to order food from campus cafes and have fellow students deliver it directly to them for a small fee. If you're headed across campus for your next class, and there's a cafe along the way, why not make an extra buck?
+Foodie allows university students to order food from campus cafes and have fellow students deliver it directly to them for a small fee. If you're headed across campus for your next class, and there's a cafe along the way, why not make an extra buck?
 
 Open the app, select the cafe and where you're going, and find all your peers that want to get fed.
+
+
 
 Why Foodie?
 1. Cheap and direct
